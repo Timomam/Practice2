@@ -1,4 +1,4 @@
 # Practice2
 Second HTML/CSS practice
 
-Focus in responsivity
+Focus in responsiveness
