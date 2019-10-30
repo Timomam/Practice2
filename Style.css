@@ -1,0 +1,195 @@
+html {
+    background-color: rgb(228, 228, 228);
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+
+ul {
+    align-items: center;
+    display: flex;
+    list-style: none;
+    padding: 5px;
+}
+
+ul a {
+    color: white;
+    padding: 15px;
+    align-self;: flex-end;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+#top img {
+    padding: 10px;
+    height: 40px;
+}
+
+
+#top {
+    display: flex;
+    height: 60px;
+    width: 100%;
+    max-width: 1400px;
+    background-color: black;
+    justify-content: space-between;
+    margin-top: 0;
+}
+
+@media screen and (max-width: 650px) {
+    #top img{
+        display: none;
+    }
+    #map {
+        width: 50%;
+    }
+}
+
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+a {
+    transition: 0.4s;
+}
+
+a:hover {
+    background-color: rgb(154, 196, 230);
+    color: black;
+}
+
+#top a:active {
+    background-color: rgb(154, 196, 230);
+    color: black;
+}
+
+#banner {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 20px;
+    background-color: rgb(154, 196, 230);
+    margin: 15px;
+    border-radius: 4px;
+    box-shadow: 2.5px 2.5px 2.5px #aaaaaa;
+}
+
+#banner h1, p {
+    color: black;
+}
+
+footer {
+    height: 80px;
+    text-align: center;
+    background-color: black;
+}
+
+footer p {
+    color: white;
+    padding-top: 30px;
+}
+
+#left {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: auto;
+    padding: 20px;
+    background-color: rgb(154, 196, 230);
+    margin: 15px;
+    align-items: center;
+    border-radius: 4px;
+} 
+
+#center {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: auto;
+    padding: 20px;
+    background-color: rgb(154, 196, 230);
+    margin: 15px;
+    align-items: center;
+    border-radius: 4px; 
+}
+
+#right {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: auto;
+    padding: 20px;
+    background-color: rgb(154, 196, 230);
+    margin: 15px;
+    align-items: center;
+    border-radius: 4px;
+}
+
+#left img, #center img, #right img {
+    width: 100%;
+    
+}
+
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url("https://cdn.pixabay.com/photo/2019/09/05/10/53/dreary-4453740_960_720.jpg");
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    background-attachment: fixed;
+}
+
+#info {
+    margin: 40px 15px 40px 15px;
+}
+
+#contact {
+    margin: 15px;
+    background-color: rgb(154, 196, 230);
+    padding: 10px;
+    border-radius: 4px;
+    height: 400px;
+}
+
+.info2 {
+    margin: 15px;
+    background-color: rgb(154, 196, 230);
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.info2 img {
+    max-width: 100%;
+}
+
+.container {
+    display: flex;
+}
+
+@media screen and (max-width: 700px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+#contact2 {
+    padding: 15px;
+    background-color: rgb(154, 196, 230);
+    width: 300px;
+    margin: 15px;
+    border-radius: 4px;
+}
+
+#map {
+    padding: 20px;
+}
