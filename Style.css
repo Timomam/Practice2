@@ -142,10 +142,10 @@ footer p {
     display: flex;
     flex-wrap: wrap;
     background-image: url("https://cdn.pixabay.com/photo/2019/09/05/10/53/dreary-4453740_960_720.jpg");
-    background-position: center;
-    background-size: cover;
-    justify-content: center;
+    background-position: bottom;
     background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
 }
 
 #info {
